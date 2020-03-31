@@ -31,7 +31,7 @@ function moveDodgerRight(){
     if (e.key === "ArrowLeft") {
       moveDodgerLeft();
     }
-    else if (e.key==="ArrowRight"){
+    if (e.key==="ArrowRight"){
         moveDodgerRight();
     }
 
